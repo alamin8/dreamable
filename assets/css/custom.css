@@ -1195,6 +1195,18 @@ a:hover
 
 
 /* loder */
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    z-index: 9999999999999;
+    background-color:#FFFFFF;
+}
 .loaders {
     position: absolute;
     width: 150px;
