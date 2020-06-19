@@ -3,12 +3,12 @@
 // /* =====================================
 //                loader
 //  ====================================== */
-// $(window).on("load",function(){ "use strict";
-//     setTimeout(function () {
-//         $(".loader").fadeOut(800);
-//     },1500);
+$(window).on("load",function(){ "use strict";
+    setTimeout(function () {
+        $(".loader").fadeOut(800);
+    },1500);
 
-// });
+});
 
 
 $(document).ready(function(){
